@@ -1,6 +1,6 @@
-# Личный проект «{{projectTitle}}»
+# Личный проект Sedona
 
-* Студент: [{{userName}}]({{userProfile}}).
+* Студент: Elbikov Dzhangr
 * Наставник: `Неизвестно`.
 
 ---
