@@ -1,12 +1,141 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
-  </body>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Седона</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="page-body">
+  <header class="page-header">
+    <div class="wrapper">
+      <!-- Основная навигация -->
+      <nav class="main-navigation">
+        <ul class="main-navigation-list">
+          <li class="main-navigation-item">
+            <a href="#" class="main-navigation-link">Информация</a>
+          </li>
+          <li class="main-navigation-item">
+            <a href="#" class="main-navigation-link">Фото и видео</a>
+          </li>
+          <li class="main-navigation-item">
+            <a class="main-navigation-link">
+              <img src="" width="" height="" alt="Логотип Седона">
+            </a>
+          </li>
+          <li class="main-navigation-item">
+            <a href="#" class="main-navigation-link">Карта штата</a>
+          </li>
+          <li class="main-navigation-item">
+            <a href="#" class="main-navigation-link">Гостиницы</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main class="page-main">
+    <div class="wrapper">
+      <h1 class="visually-hidden">Туристический город Седона</h1>
+      <!-- Приветственный баннер -->
+      <section class="banner">
+        <h2 class="visually-hidden">Добро пожаловать в Седону</h2>
+        <img src="" width="" height="" alt="Приветственный баннер города Седона">
+      </section>
+      
+      <p class="promo">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+      <p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+      <!-- Достопримечательности -->
+      <section class="attraction">
+        <h2 class="visually-hidden">5 причин постетить Седону</h2>
+        <div class="attraction-list">
+          <div class="attraction-item">
+            <h3 class="attraction-title">Настоящий городок</h3>
+            <p class="attraction-number">— №1 —</p>
+            <p class="attraction-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+          </div>
+          <div class="attraction-item">
+            <h3 class="attraction-title">Там есть Мост дьявола</h3>
+            <p class="attraction-number">— №2 —</p>
+            <p class="attraction-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+          </div>
+          <div class="attraction-item">
+            <h3 class="attraction-title">Небольшая площадь</h3>
+            <p class="attraction-number">— №3 —</p>
+            <p class="attraction-description">Все достопримечательности находятся очень близко</p>
+          </div>
+          <div class="attraction-item">
+            <h3 class="attraction-title">Красивая дорога</h3>
+            <p class="attraction-number">— №4 —</p>
+            <p class="attraction-description">Ехать в седону из лас-вегаса совсем не скучно!</p>
+          </div>
+          <div class="attraction-item">
+            <h3 class="attraction-title">Мало туристов</h3>
+            <p class="attraction-number">— №5 —</p>
+            <p class="attraction-description">Большинство едет в гранд каньон и толпится там</p>
+          </div>
+        </div>
+      </section>
+      <!-- Сервисы -->
+      <section class="services">
+        <h2>Сервисы</h2>
+        <div class="services-item">
+          <h3 class="services-title">Жильё</h3>
+          <p class="services-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
+        </div>
+        <div class="services-item">
+          <h3 class="services-title">Еда</h3>
+          <p class="services-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+        </div>
+        <div class="services-item">
+          <h3 class="services-title">Сувениры</h3>
+          <p class="services-description">Не только китайского, но и местного
+            производства!</p>
+        </div>
+      </section>
+      <!-- Поиск гостиницы -->
+      <section class="search-hotel">
+        <h2 class="visually-hidden">Поиск гостиницы</h2>
+        <p>Заинтересовались?</p>
+        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Cедоне</p>
+        <button class="button">Поиск гостиницы в Седоне</button>
+      </section>
+      <!-- Интерактивная карта -->
+      <section class="map">
+        <h2 class="visually-hidden">Карта проезда</h2>
+        <img src="" width="1199" height="594" alt="Карта проезда до Седоны">
+      </section>
+    </div>
+  </main>
+  <footer class="page-footer">
+    <div class="wrapper">
+      <!-- Контакты -->
+      <div class="contacts">
+        <p>#visitSEDONA</p>
+        <p>
+          <a href="tel:7800558628">+7 800 555-86-28</a>
+        </p>
+      </div>
+      <!-- Социальные сети -->
+      <div class="socials">
+        <a href="#">
+          <img src="" width="17" height="17" alt="Twitter">
+        </a>
+        <a href="#">
+          <img src="" width="12" height="22" alt="Facebook">
+        </a>
+        <a href="#">
+          <img src="" width="20" height="16" alt="Youtube">
+        </a>
+      </div>
+      <!-- Разработчик -->
+      <div class="developer">
+        <p>Website by</p>
+        <a href="#">
+          <img src="" width="115" height="33" alt="Логотип Htmlacademy">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
